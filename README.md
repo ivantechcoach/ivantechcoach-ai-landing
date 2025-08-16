@@ -16,10 +16,9 @@ HTML5 • CSS3 • JavaScript
 Hosting via GitHub Pages
 
 ## 📌 Live Demo
-*(Add GitHub Pages URL after publishing)*
+👉 [View the Landing Page](https://ivantechcoach.github.io/ivantechcoach-ai-landing/)
 
 ---
 
 ### 📄 License
 MIT © 2025 Ivan Tech Coach
-
