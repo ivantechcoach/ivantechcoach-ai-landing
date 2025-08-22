@@ -16,10 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     /**
      * Alterna la visibilidad del menú de navegación en dispositivos móviles.
      * Añade/quita la clase 'active' al menú y al botón hamburguesa.
+     * También bloquea/desbloquea el scroll del body.
      */
     const toggleNavMenu = () => {
         hamburger.classList.toggle('active');
         navMenu.classList.toggle('active');
+        document.body.classList.toggle('no-scroll'); // Añade o quita la clase para bloquear/desbloquear el scroll
     };
 
     /**
@@ -30,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (navMenu.classList.contains('active')) {
             hamburger.classList.remove('active');
             navMenu.classList.remove('active');
+            document.body.classList.remove('no-scroll'); // Se asegura de quitar la clase y restaurar el scroll
         }
     };
 

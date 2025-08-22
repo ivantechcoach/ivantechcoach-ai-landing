@@ -33,6 +33,11 @@ body {
     background-color: var(--color-white);
 }
 
+/* Clase para bloquear el scroll cuando el menú está abierto */
+body.no-scroll {
+    overflow: hidden;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -225,12 +230,6 @@ header.scrolled {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: text-shine 5s linear infinite;
-}
-
-@keyframes text-shine {
-    to {
-        background-position: 200% center;
-    }
 }
 
 .hero-subtitle {
@@ -541,6 +540,78 @@ footer {
     text-align: center;
 }
 
+/* ============== ANIMACIONES ============== */
+
+/* Animación de brillo para el título del Hero */
+@keyframes text-shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* Animación para hamburguesa */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(1px, -1px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(1px, 0);
+}
+
+/* Animación de Olas */
+.waves-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    min-height: 100px;
+    max-height: 150px;
+    z-index: 1;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% {
+        transform: translate3d(85px,0,0);
+    }
+}
+
+/* ============== MEDIA QUERIES (RESPONSIVE) ============== */
+
 /* Modo oscuro (opcional) */
 @media (prefers-color-scheme: dark) {
     :root {
@@ -594,7 +665,6 @@ footer {
     }
 }
 
-/* Responsive */
 @media screen and (max-width: 1024px) {
     .hero-title {
         font-size: 2.5rem;
@@ -696,18 +766,4 @@ footer {
     .testimonial-text {
         font-size: 1.2rem;
     }
-}
-
-/* Animación para hamburguesa */
-.hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(1px, -1px);
-}
-
-.hamburger.active span:nth-child(2) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-.hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(1px, 0);
 }

@@ -37,13 +37,14 @@
     <!-- <meta name="twitter:creator" content="@usuarioTwitter"> -->
 
     <!-- ============== GOOGLE ANALYTICS 4 (GA4) ============== -->
-    <!-- Reemplazar G-XXXXXXX con el ID de medición real de Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FMWT7R0VD"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXX');
+    
+      gtag('config', 'G-6FMWT7R0VD');
     </script>
 
     <!-- ============== SCHEMA.ORG JSON-LD (PERSON) ============== -->
