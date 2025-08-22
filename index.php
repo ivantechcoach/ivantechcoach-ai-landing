@@ -1,47 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <!-- Metadatos Esenciales -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivan Tech Coach | Asesor Tecnológico</title>
-
-    <!-- SEO y Metadatos Sociales (Opcional pero recomendado) -->
-    <meta name="description" content="Tu Coach de Tecnología Personal. Te acompaño en tu viaje tecnológico con un lenguaje simple y soluciones prácticas para tus necesidades digitales.">
-    <meta name="author" content="Ivan Tech Coach">
-    <!-- Open Graph para Facebook, LinkedIn, etc. -->
-    <meta property="og:title" content="Ivan Tech Coach | Asesor Tecnológico">
-    <meta property="og:description" content="Soluciones tecnológicas claras y sencillas para personas mayores de 40 años.">
-    <meta property="og:image" content="/api/placeholder/1200/630"> <!-- URL a una imagen representativa -->
-    <meta property="og:url" content="URL_DE_TU_PAGINA">
-    <meta property="og:type" content="website">
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ivan Tech Coach | Asesor Tecnológico">
-    <meta name="twitter:description" content="Soluciones tecnológicas claras y sencillas para personas mayores de 40 años.">
-    <meta name="twitter:image" content="/api/placeholder/1200/630"> <!-- URL a una imagen representativa -->
-
-    <!-- Favicon (Icono de la pestaña del navegador) -->
-    <link rel="icon" href="/api/placeholder/32/32" type="image/png"> <!-- Cambiar por la ruta a tu favicon -->
-
-    <!-- Fuentes de Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Iconos de Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Hoja de Estilos Propia -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+<?php include 'partials/header.php'; ?>
 
     <!-- =================== HEADER =================== -->
     <header id="header">
         <div class="container header-container">
             <a href="#" class="logo">
-                <img src="assets/images/logo.png" alt="Ivan Tech Coach Logo">
+                <img src="assets/img/logo.webp" alt="Ivan Tech Coach Logo">
                 <span class="logo-text">Ivan Tech Coach</span>
             </a>
             <nav>
@@ -80,7 +43,7 @@
     <section id="about" class="about">
         <div class="container about-container">
             <div class="about-image">
-                <img src="assets/images/profile.png" alt="Ivan Tech Coach - Perfil">
+                <img src="assets/img/profile.webp" alt="Ivan Tech Coach - Perfil">
             </div>
             <div class="about-content">
                 <h2 class="section-title">Sobre Mí</h2>
