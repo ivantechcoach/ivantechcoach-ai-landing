@@ -1,0 +1,28 @@
+# ===================================================================
+# robots.txt para ivantechcoach.com
+# Permite el acceso a rastreadores importantes y bloquea 
+# directorios de recursos para otros bots.
+# ===================================================================
+
+# User-agent para el bot de OpenAI
+User-agent: ChatGPT-User
+Disallow:
+
+# User-agent para Google Search (y por herencia, Gemini)
+User-agent: Googlebot
+Disallow:
+
+# User-agent específico para modelos de IA de Google (Gemini, etc.)
+User-agent: Google-Extended
+Disallow:
+
+# Reglas generales para todos los demás bots
+User-agent: *
+Disallow: /partials/
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /assets/fonts/
+Disallow: /docs/
+
+# Ubicación del Sitemap (reemplazar con la URL real cuando esté disponible)
+Sitemap: https://ivantechcoach.com/sitemap.xml

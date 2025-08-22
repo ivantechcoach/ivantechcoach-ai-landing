@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página Principal de la Landing Page -->
+  <url>
+    <loc>https://ivantechcoach.com/</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!--
+  *** NOTA PARA EL FUTURO ***
+  Si agregas más páginas al sitio (como un blog, página de servicios detallados, etc.),
+  debes añadir una nueva entrada <url>...</url> para cada una aquí.
+  Por ejemplo:
+  <url>
+    <loc>https://ivantechcoach.com/blog</loc>
+    <lastmod>2025-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+</urlset>
