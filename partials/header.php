@@ -63,8 +63,34 @@
     }
     </script>
 
+    <!-- ============== FONT AWESOME (ICONOS) ============== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- ============== HOJA DE ESTILOS PRINCIPAL ============== -->
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 <body>
+
+    <!-- =================== HEADER =================== -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.webp" alt="Ivan Tech Coach Logo">
+                <span class="logo-text">Ivan Tech Coach</span>
+            </a>
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Sobre Mí</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contacto</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>

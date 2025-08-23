@@ -1,28 +1,5 @@
 <?php include 'partials/header.php'; ?>
 
-    <!-- =================== HEADER =================== -->
-    <header id="header">
-        <div class="container header-container">
-            <a href="#" class="logo">
-                <img src="assets/img/logo.webp" alt="Ivan Tech Coach Logo">
-                <span class="logo-text">Ivan Tech Coach</span>
-            </a>
-            <nav>
-                <ul class="nav-menu" id="navMenu">
-                    <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">Sobre Mí</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contacto</a></li>
-                </ul>
-                <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </nav>
-        </div>
-    </header>
-
     <!-- =================== HERO SECTION =================== -->
     <section id="hero" class="hero visible">
         <div class="hero-shape"></div>
@@ -161,31 +138,4 @@
         </div>
     </section>
 
-    <!-- =================== FOOTER =================== -->
-    <footer>
-        <div class="container footer-container">
-            <div class="social-links">
-                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a>
-                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
-                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="far fa-envelope"></i></a>
-                <a href="#" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-            </div>
-            <div class="footer-nav">
-                <a href="#hero" class="footer-link">Inicio</a>
-                <a href="#about" class="footer-link">Sobre Mí</a>
-                <a href="#services" class="footer-link">Servicios</a>
-                <a href="#contact" class="footer-link">Contacto</a>
-            </div>
-            <div class="footer-copyright">
-                &copy; <span id="year">2025</span> Ivan Tech Coach. Todos los derechos reservados.
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript - `defer` asegura que el script se ejecute después de que el HTML ha sido analizado -->
-    <script src="assets/js/main.js" defer></script>
-
-</body>
-</html>
+<?php include 'partials/footer.php'; ?>
