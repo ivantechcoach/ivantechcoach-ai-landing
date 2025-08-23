@@ -75,15 +75,16 @@
     <!-- =================== HEADER =================== -->
     <header id="header">
         <div class="container header-container">
-            <a href="#" class="logo">
+            <a href="index.php" class="logo">
                 <img src="assets/img/logo.webp" alt="Ivan Tech Coach Logo">
                 <span class="logo-text">Ivan Tech Coach</span>
             </a>
             <nav>
                 <ul class="nav-menu" id="navMenu">
-                    <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">Sobre Mí</a></li>
                     <li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="portafolio.php" class="nav-link">Portafolio</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contacto</a></li>
                 </ul>
                 <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación">
