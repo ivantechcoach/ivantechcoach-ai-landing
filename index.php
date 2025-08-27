@@ -35,7 +35,7 @@
     <section id="about" class="about">
         <div class="container about-container">
             <div class="about-image">
-                <img src="assets/img/profile.webp" alt="Ivan Tech Coach - Perfil">
+                <img src="assets/img/profile.webp" alt="Ivan Tech Coach - Perfil" loading="lazy" width="350" height="350">
             </div>
             <div class="about-content">
                 <h2 class="section-title">Sobre Mí</h2>

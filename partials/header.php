@@ -11,11 +11,20 @@
     <meta name="author" content="Ivan Tech Coach">
     <link rel="canonical" href="https://ivantechcoach.com">
 
+    <!-- ============== PRECONNECTS PARA RECURSOS EXTERNOS ============== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+
     <!-- ============== FAVICON Y APPLE TOUCH ICON ============== -->
     <!-- Icono para la pestaña del navegador -->
     <link rel="icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon">
     <!-- Icono para dispositivos Apple -->
     <link rel="apple-touch-icon" href="assets/img/favicon_io/apple-touch-icon.png">
+
+    <!-- ============== GOOGLE FONTS (Poppins) ============== -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- ============== META TAGS OPEN GRAPH (Facebook, LinkedIn) ============== -->
     <meta property="og:title" content="Ivan Tech Coach | Asesoría y Desarrollo Web Full Stack">
