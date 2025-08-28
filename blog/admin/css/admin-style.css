@@ -1,0 +1,233 @@
+/* admin/css/admin-style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top for longer pages */
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* Add some padding for overall layout */
+    box-sizing: border-box;
+}
+
+.login-container, .dashboard-container {
+    width: 100%;
+    max-width: 960px; /* Wider for dashboard */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Clear floats */
+}
+
+.login-box {
+    max-width: 400px;
+    margin: 50px auto; /* Center login box */
+    padding: 20px;
+}
+
+.login-box h2, .dashboard-header h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="url"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-login, .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #7A00F5; /* Color de acento */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover, .btn-primary:hover {
+    background-color: #5e00c5; /* Tono más oscuro */
+}
+
+.error-message, .message.error {
+    color: #d9534f;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.message.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.error-text {
+    color: #d9534f;
+    font-size: 0.85em;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Dashboard Specific Styles */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #f9f9f9;
+}
+
+.dashboard-header h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.btn-logout {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-logout:hover {
+    background-color: #d32f2f;
+}
+
+.admin-nav {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.admin-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.admin-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.admin-nav a:hover, .admin-nav a.active {
+    color: #66FFCC; /* Primary color */
+}
+
+.dashboard-content {
+    padding: 20px;
+}
+
+/* Specific styles for new-article form */
+.dashboard-content form {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+}
+
+/* Articles Table Styles */
+.articles-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.articles-table th, .articles-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.articles-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.articles-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.articles-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.articles-table .actions {
+    text-align: center;
+    white-space: nowrap; /* Prevent wrapping of buttons */
+}
+
+.btn-action {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin: 0 2px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-action.edit {
+    background-color: #007bff; /* Blue */
+    color: white;
+}
+
+.btn-action.edit:hover {
+    background-color: #0056b3;
+}
+
+.btn-action.delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+    border: none; /* For button element */
+    cursor: pointer;
+}
+
+.btn-action.delete:hover {
+    background-color: #c82333;
+}

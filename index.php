@@ -1,4 +1,9 @@
-<?php include 'partials/header.php'; ?>
+<?php 
+require_once 'config.php';
+$page_title = 'Ivan Tech Coach | Tu Coach de Tecnología Personal';
+$page_description = 'Te acompaño en tu viaje tecnológico con un lenguaje simple y soluciones prácticas para tus necesidades digitales.';
+include 'partials/header.php'; 
+?>
 
     <!-- =================== HERO SECTION =================== -->
     <section id="hero" class="hero visible">

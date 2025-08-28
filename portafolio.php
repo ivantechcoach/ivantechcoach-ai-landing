@@ -1,4 +1,9 @@
-<?php include 'partials/header.php'; ?>
+<?php 
+require_once 'config.php';
+$page_title = 'Portafolio | Proyectos de Ivan Tech Coach';
+$page_description = 'Una selección de mis proyectos más recientes en desarrollo web y otras áreas tecnológicas.';
+include 'partials/header.php'; 
+?>
 
     <!-- =================== PORTAFOLIO SECTION =================== -->
     <section id="portafolio" class="portafolio visible">

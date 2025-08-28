@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /ivantechcoach-ai-landing/blog/
+
+# Regla para artículos (ej. /blog/articulo/mi-slug)
+RewriteRule ^articulo/([a-zA-Z0-9-]+)/?$ article.php?slug=$1 [L,QSA]
+
+# Regla para el index del blog (opcional, si quieres /blog/ como /blog/index.php)
+RewriteRule ^$ index.php [L]
+
+# Bloquear acceso a archivos de configuración y otros sensibles
+<FilesMatch "^(db\.php|db\.sample\.php|auth\.php|create_admin_user\.php)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

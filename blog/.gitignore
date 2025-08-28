@@ -1,0 +1,28 @@
+# Ignorar archivos de configuración sensibles
+/config/db.php
+
+# Ignorar directorios de dependencias
+/vendor/
+/node_modules/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de entorno
+.env
+.env.*
+
+# Ignorar archivos de IDE y sistema
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales y de caché
+/tmp/
+/temp/
+*.tmp
+*.bak
+*.swp
